@@ -11,7 +11,7 @@ namespace JavascriptPractice.Controllers
         public ActionResult Index()
         {
             ViewBag.Message = "Welcome to ASP.NET MVC!";
-
+            ViewBag.name = "Farai";
             return View();
         }
 
